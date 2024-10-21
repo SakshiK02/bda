@@ -80,10 +80,10 @@ arima_bic <- BIC(arima_model)
 sarima_rmse <- sqrt(mean(residuals(sarima_model)^2))
 arima_rmse <- sqrt(mean(residuals(arima_model)^2))
 
-print(paste("SARIMA AIC:", sarima_aic, "BIC:", sarima_bic, "RMSE:", sarima_rmse))
-print(paste("ARIMA AIC:", arima_aic, "BIC:", arima_bic, "RMSE:", arima_rmse))
 
 #c)
+print(paste("SARIMA AIC:", sarima_aic, "BIC:", sarima_bic, "RMSE:", sarima_rmse))
+print(paste("ARIMA AIC:", arima_aic, "BIC:", arima_bic, "RMSE:", arima_rmse))
 
 #6)
 
